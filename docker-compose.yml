@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  auth-service:
+    build: ./auth-service/app
+    container_name: auth_service
+    ports:
+      - "5001:5000"
+
+  project-service:
+    build: ./project-service/app
+    container_name: project_service
+    ports:
+      - "7001:7000"
+
+  logging-service:
+    build: ./logging-service/app
+    container_name: logging_service
+    ports:
+      - "6001:6000"
+
+  frontend:
+    build: .
+    container_name: frontend
+    ports:
+      - "3000:80" 
+    depends_on:
+      - auth-service
+      - project-service
+      - logging-service
+    environment:
+      - NODE_ENV=development

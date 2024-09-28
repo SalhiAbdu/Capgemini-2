@@ -1,0 +1,256 @@
+{
+  "boards": [
+    {
+      "name": "Projet Capgemini",
+      "isActive": true,
+      "columns": [
+        {
+          "name": "À faire",
+          "tasks": [
+            {
+              "title": "RUS 331 - Bug sur l'écran de gestion des trains",
+              "description": "Bug bloquant détecté lors de la gestion des trains. Le système ne répond pas correctement.",
+              "status": "À faire",
+              "subtasks": [
+                {
+                  "title": "Analyser le bug",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Corriger le bug",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Tester après correction",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "RUS 332 - Implémentation du filtre de recherche",
+              "description": "Ajouter des options de filtrage dans l'interface de recherche.",
+              "status": "À faire",
+              "subtasks": [
+                {
+                  "title": "Conception du filtre",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Développement du filtre",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Tests du filtre",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "RUS 333 - Mise à jour de l'authentification utilisateur",
+              "description": "Amélioration du système d'authentification avec des mesures de sécurité renforcées.",
+              "status": "À faire",
+              "subtasks": [
+                {
+                  "title": "Analyser le système existant",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Développer les endpoints d'authentification",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Tester la nouvelle implémentation",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "En cours",
+          "tasks": [
+            {
+              "title": "RUS 334 - Implémentation du tableau de bord",
+              "description": "Développement du tableau de bord pour suivre les KPI en temps réel.",
+              "status": "En cours",
+              "subtasks": [
+                {
+                  "title": "Définir les KPI clés",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Conception de l'interface utilisateur",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Développement du tableau de bord",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "RUS 335 - Intégration avec les systèmes externes",
+              "description": "Connexion du système interne à des API externes pour la synchronisation des données.",
+              "status": "En cours",
+              "subtasks": [
+                {
+                  "title": "Évaluer les API disponibles",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Configurer l'intégration des API",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Tests d'intégration",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Terminé",
+          "tasks": [
+            {
+              "title": "RUS 330 - Validation des tests de wireframe",
+              "description": "Réalisation des tests de wireframe avec des utilisateurs finaux pour valider l'interface.",
+              "status": "Terminé",
+              "subtasks": [
+                {
+                  "title": "Préparation des wireframes",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Conduire des tests avec les utilisateurs",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "RUS 329 - Analyse concurrentielle",
+              "description": "Étude des concurrents directs et indirects pour mieux comprendre leur positionnement.",
+              "status": "Terminé",
+              "subtasks": [
+                {
+                  "title": "Identifier les concurrents",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Analyse SWOT pour chaque concurrent",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plan de lancement",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "À faire",
+          "tasks": [
+            {
+              "title": "Préparer le lancement de la plateforme",
+              "description": "Déterminer les étapes du lancement de la nouvelle version.",
+              "status": "À faire",
+              "subtasks": [
+                {
+                  "title": "Finaliser les documents marketing",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Préparer la communication interne",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Organiser des réunions avec les parties prenantes",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Coordonner avec l'équipe commerciale",
+              "description": "S'assurer que l'équipe commerciale est prête pour le lancement.",
+              "status": "À faire",
+              "subtasks": [
+                {
+                  "title": "Préparer la documentation de vente",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Organiser une formation pour l'équipe",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "En cours",
+          "tasks": []
+        },
+        {
+          "name": "Terminé",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "Roadmap",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Maintenant",
+          "tasks": [
+            {
+              "title": "RUS 336 - Lancer la version un",
+              "description": "Lancer la première version du projet pour les utilisateurs en liste d'attente.",
+              "status": "À faire",
+              "subtasks": [
+                {
+                  "title": "Préparer la version à déployer",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Coordonner avec les équipes pour le lancement",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "RUS 337 - Recueillir les retours utilisateurs",
+              "description": "Recueillir les premiers retours des utilisateurs et adapter la roadmap en fonction.",
+              "status": "À faire",
+              "subtasks": [
+                {
+                  "title": "Interviewer les utilisateurs",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Analyser les points de douleur communs",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Planifier les étapes suivantes",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ensuite",
+          "tasks": []
+        },
+        {
+          "name": "Plus tard",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}

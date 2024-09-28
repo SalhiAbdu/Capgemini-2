@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  auth-service:
+    build: ./auth-service/app
+    ports:
+      - "5001:5000"
+
+  project-service:
+    build: ./project-service/app
+    ports:
+      - "7001:7000"
+
+  logging-service:
+    build: ./logging-service/app
+    ports:
+      - "6001:6000"
